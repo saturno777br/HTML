@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Form 5</title>
+  </head>
+
+  <body>
+    <form action="http://vansan.com.br/form_teste/recebe.php" method="post">
+      <fieldset style="width: 90%">
+        <legend>Dados Pessoais</legend>
+        <p>Nome: <input type="text" name="Nome" size="50" required /></p>
+        <p>E-mail: <input type="text" name="e-mail" size="25" required</p>
+        <p>Nome da Mãe: <input type="text" name="nome da mãe" size="50"</p>
+        <p>Nome do Pai: <input type="text" name="nome do pai" size="50"</p>
+        <p>
+          Universidade:
+          <input type="text" name="Universidade" required />
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          Curso: <input type="text" name="Curso" required />
+        </p>
+        <p>
+          Nacionalidade:
+          <select name="Nacionalidade" required>
+            <option value="Brasileiro">Brasileiro</option>
+            <option value="Australiano">Australiano</option>
+            <option value="Chileno">Chileno</option>
+            <option value="Americano">Americano</option>
+          </select>
+        </p>
+      </fieldset>
+      <br />
+
+      <fieldset style="width: 100%">
+        <p>
+          RG:
+          <input type="text" name="RG" size="15" />
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          Orgão de expedição:
+          <input type="text" name="Orgão de expedição" size="10" />
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Data
+          de expedição: <input type="text" name="Data de expedição" size="10" />
+        </p>
+        <p>CPF: <input type="text" name="CPF" required</p>
+      </fieldset>
+      <br />
+
+      <fieldset style="width: 90%">
+        <p>CEP: <input type="text" name="CEP" size="10" required /></p>
+
+        <p>
+          UF:
+          <select name="UF" required>
+            <option value="">RO</option>
+            <option value="">AC</option>
+            <option value="">AM</option>
+            <option value="">RR</option>
+            <option value="">PA</option>
+            <option value="">AP</option>
+            <option value="">TO</option>
+            <option value="">MA</option>
+            <option value="">PI</option>
+            <option value="">CE</option>
+            <option value="">RN</option>
+            <option value="">PB</option>
+            <option value="">PE</option>
+            <option value="">AL</option>
+            <option value="">SE</option>
+            <option value="">BA</option>
+            <option value="">MG</option>
+            <option value="">ES</option>
+            <option value="">RJ</option>
+            <option value="">SP</option>
+            <option value="">PR</option>
+            <option value="">SC</option>
+            <option value="">RS</option>
+            <option value="">MS</option>
+            <option value="">MT</option>
+            <option value="">GO</option>
+            <option value="">DF</option>
+          </select>
+
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          Município
+          <select name="" required>
+            <option value="">Itatiba</option>
+            <option value="">Jundiaí</option>
+            <option value="">Valinhos</option>
+            <option value="">Vinhedo</option>
+            <option value="">Morungaba</option>
+            <option value="">São Paulo</option>
+            <option value="">São josé dos Campos</option>
+            <option value="">Piracicaba</option>
+            <option value="">Guarulhos</option>
+            <option value="">Jarinu</option>
+            <option value="">Camanducaia</option>
+            <option value="">Petropolis</option>
+            <option value="">Porto seguro</option>
+            <option value="">Salvador</option>
+            <option value="">Campos do Jordão</option>
+            <option value="">Extrema</option>
+            <option value="">Santo André</option>
+          </select>
+        </p>
+
+        <p>
+          Logradouro
+          <select name="Logradouro" required>
+            <option value="Avenida">Avenida</option>
+            <option value="Rua">Rua</option>
+            <option value="Alameda">Alameda</option>
+            <option value="Condomínio">Condomínio</option>
+            <option value="Distrito">Distrito</option>
+          </select>
+
+          <input type="text" name="Endereço" required />
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          N.°:<input type="text" name="N.°" size="2" required />
+        </p>
+
+        <p>
+          Bairro:
+          <input type="text" name="Bairro" required />
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          Telefone(<input type="tel" name="DDD" size="1" required />) &nbsp&nbsp
+          <input type="tel" name="telefone" size="14" required />
+        </p>
+      </fieldset>
+      <br />
+
+      <fieldset style="width: 90%">
+        <p>
+          Data:
+          <input type="date" name="Data" required />
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          Horário: <input type="time" name="Horário" step="300" required />
+        </p>
+      </fieldset>
+
+      <p>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="submit" name="" value="Cadastrar" />
+        &nbsp&nbsp&nbsp&nbsp
+        <input type="reset" name="" value="Cancelar" />
+      </p>
+    </form>
+  </body>
+</html>
